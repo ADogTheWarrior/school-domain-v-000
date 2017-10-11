@@ -23,8 +23,9 @@ attr_reader :roster
   end
 
   def sort
-    roster.each do |grade|
-      grade.sort
+    # {9: [john, bob]}
+    roster.each do |grade, students|
+      students.sort!
     end
     roster
   end
