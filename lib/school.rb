@@ -24,7 +24,7 @@ ROSTER = {}
 
   def sort
     ROSTER.each do |grade|
-      grade.sort!
+      grade.sort
     end
     ROSTER
   end
