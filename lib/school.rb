@@ -26,6 +26,6 @@ attr_reader :roster
     roster.each do |grade|
       grade.sort
     end
-    ROSTER
+    roster
   end
 end
